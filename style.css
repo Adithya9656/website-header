@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif; */
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  background-color: red;
+}
+
+header {
+  padding: 4.2rem 6.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+  /* background-color: black; */
+
+  position: sticky;
+  top: 0;
+}
+
+/* .header.active {
+  background-color: #fff;
+} */
+
+.main-nav-logo {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: rgb(0, 153, 255);
+}
+.nitc {
+  font-weight: 300;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.2rem;
+  align-items: center;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fff;
+
+  padding: 3.2rem 0rem;
+
+  transition: all 0.3s ease-out;
+}
+
+.main-nav-link:link .main-nav-link:visited {
+  color: rgb(0, 153, 255);
+}
+
+.main-nav-link:hover {
+  color: rgb(0, 153, 255);
+  border-bottom: 4px solid rgb(0, 153, 255);
+}
+
+.join {
+  padding: 1rem 1.2rem;
+  background-color: rgb(0, 153, 255);
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.join:active,
+.join:hover {
+  border: none;
+
+  background-color: rgba(0, 153, 255, 0.688);
+  color: #fff;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #fff;
+}
+
+.icon-mobile-nav[name="close"] {
+  display: none;
+}
